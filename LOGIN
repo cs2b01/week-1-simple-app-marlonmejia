@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>LOGIN</title>
+</head>
+<body>
+	<div align="center">
+		<h1 >MyChat</h1>
+		<div style ="display: none; color: red" id="mensajever">Oh Snap. Invalid password or username</div>
+		
+		<div>
+			<br>
+			<input type="text" name="usuario" placeholder="Username" /></div>
+			<br>
+		<div>
+			<input type="password" name="contraseña"  id="contraseña" required=""/></div>
+			<br>
+		<div>
+			<input type="submit" placeholder="contraseña" onclick="getElementById('mensajever').style.display='inline-block'; "></div>
+	</div>
+	
+</body>
+</html>
